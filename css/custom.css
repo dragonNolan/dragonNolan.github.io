@@ -5,23 +5,47 @@
 }
 
 #customnav {
-
+	background-color:#4d2600;
 
 }
 
 .h2custom {
 	color:white;
 }
+
+.h2custombrown {
+	color:#4d2600;
+}
+
+.h4custombrown {
+	color:#4d2600;
+}
+.h4custom {
+	color:white;
+}
+.pcustombrown {
+	color:#4d2600;
+}
 .h3custom {
 	color: white;
 	font-size: 20px;
   	font-family: "Montserrat", Helvetica, Arial, sans-serif;
   	text-transform: none;
-  	font-weight: 100;
+  	font-weight: light;
   	margin-bottom: 75px;
   	line-height: 100%;
 }
 
 .customgreen {
 	background-color: #1e3b3c;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
 }
