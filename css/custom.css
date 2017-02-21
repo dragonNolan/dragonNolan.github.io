@@ -1,1 +1,27 @@
-c
+#customcontact {
+  background-color: #1e3b3c;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#customnav {
+
+
+}
+
+.h2custom {
+	color:white;
+}
+.h3custom {
+	color: white;
+	font-size: 20px;
+  	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  	text-transform: none;
+  	font-weight: 100;
+  	margin-bottom: 75px;
+  	line-height: 100%;
+}
+
+.customgreen {
+	background-color: #1e3b3c;
+}
