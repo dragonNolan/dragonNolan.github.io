@@ -1,5 +1,5 @@
 #customcontact {
-  background-color: #1e3b3c;
+  background-color: #2e1600;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -15,7 +15,7 @@
 }
 
 .h2custom {
-	color:white;
+	color:#ffffea;
 }
 
 .h2custombrown {
@@ -31,6 +31,12 @@
 .pcustombrown {
 	color:#4d2600;
 }
+.customemail{
+	color:#ffffea;
+	font-size:15pt;
+	padding-top: 20pt;
+
+}
 .h3custom {
 	color: white;
 	font-size: 20px;
@@ -43,6 +49,12 @@
 
 .customgreen {
 	background-color: #1e3b3c;
+}
+.pcustombeige {
+	color:#ffffea;
+	padding: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 @media(min-width:768px) {
