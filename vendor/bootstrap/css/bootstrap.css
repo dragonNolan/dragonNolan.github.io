@@ -3043,7 +3043,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: #337ab7;
   border-color: #ccc;
 }
 .btn-default:focus,
@@ -3100,7 +3100,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: transparent;
   border-color: #2e6da4;
 }
 .btn-primary:focus,

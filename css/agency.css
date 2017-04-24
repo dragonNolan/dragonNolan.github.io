@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #77a0a9;
+  color: #ffffea;
 }
 h1,
 h2,
@@ -92,11 +92,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #77a0a9;
-  border-color: #77a0a9;
+  background-color: #ffffea;
+  border-color: #ffffea;
 }
 .btn-primary .badge {
-  color: #77a0a9;
+  color: #ffffea;
   background-color: white;
 }
 .btn-xl {
