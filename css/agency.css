@@ -105,10 +105,10 @@ fieldset[disabled] .btn-primary.active {
   border-color: #77a0a9;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 3px;
-  font-size: 18px;
-  padding: 20px 40px;
+  font-weight: 100;
+  border-radius: 1px;
+  font-size: 14px;
+  padding: 10px 40px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/beans.svg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
