@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 0px;
 }
 
+#logo {
+  max-width: 40px;
+  max-height: 40px;
+}
+
 
 
 .filters a {
@@ -391,19 +396,34 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navbar */
 .custom-navbar {
   padding-top: 50px;
-  width: 100%;
+  width: 90%;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 740px) {
   .custom-navbar > .container {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 20;
+    padding-left: 20;
   }
 }
 
-.custom-navbar .navbar-brand {
-  font-size: 1.7rem;
+#headerlogo {
+  width: 20px;
+  height: 20px;
 }
+
+figure {
+        width: 16px !important;
+        height: 16px !important; 
+}
+.img-fluid {
+      max-width: 10%;
+      height: auto;
+    }
+
+.custom-navbar .navbar-brand {
+  font-size: 12rem;
+}
+
 
 /* Burger */
 .burger {
