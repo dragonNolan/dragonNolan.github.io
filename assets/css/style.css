@@ -26,15 +26,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .section {
-  padding: 0px;
+  padding: 7rem 0;
 }
-
-#logo {
-  max-width: 40px;
-  max-height: 40px;
-}
-
-
 
 .filters a {
   color: #000;
@@ -396,34 +389,19 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navbar */
 .custom-navbar {
   padding-top: 50px;
-  width: 90%;
+  width: 100%;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 780px) {
   .custom-navbar > .container {
-    padding-right: 20;
-    padding-left: 20;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
-#headerlogo {
-  width: 20px;
-  height: 20px;
-}
-
-figure {
-        width: 16px !important;
-        height: 16px !important; 
-}
-.img-fluid {
-      max-width: 10%;
-      height: auto;
-    }
-
 .custom-navbar .navbar-brand {
-  font-size: 12rem;
+  font-size: 1.7rem;
 }
-
 
 /* Burger */
 .burger {
