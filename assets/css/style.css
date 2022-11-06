@@ -8,11 +8,32 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-
 body {
   font-family: "Inconsolata", monospace;
   color: #0d1e2d;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: #F37A1D;
+ border-top: 3px solid #F37A1D;   
 }
 
 a {
@@ -474,15 +495,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
-  position:absolute;
-  bottom:0;
+/*.footer {
   padding: 0 0 4rem 0;
 }
 
 .footer a {
   color: #000;
-}
+}*/
 
 .social a {
   display: inline-block;
